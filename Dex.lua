@@ -4,7 +4,7 @@ local a=Instance.new("Part")for b,c in pairs(getreg())do if type(c)=="table"and#
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RevertSucks/PartyTime/main/archives/Bypasses.lua", true))()
 
 -- Dex with CloneRef Support (made as global)
-getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://9352453730")[1] --if this model is ever deleted i have a backup :D, Exxen
+getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://13209571133")[1] --if this model is ever deleted i have a backup :D, Exxen
 
 local charset = {}
 for i = 48,  57 do table.insert(charset, string.char(i)) end
